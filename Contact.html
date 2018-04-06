@@ -1,0 +1,92 @@
+<!-- -->
+
+<HTML>
+
+<Head>
+	<meta Charset="utf-8" >
+	<meta name = "Viewport"  content = ""> 
+	<meta name = "Description" content = "" >
+	<meta name = "Keywords" content = "" >
+	<meta name = "Author" content = "Troy A Wilson" >
+	<Title> Alisia Makeup| Contact </Title>
+	<link rel = "Stylesheet" href = "Style.css"> <!-- Link to the CSS -->
+</Head>
+
+<Body>
+	<Header>
+		<div class = "Container">
+			<div class = "Branding">
+			</div>
+			<a href ="Index.html"><img id = "logo" src = "AlisiaLoza.png" width = 200px></a> <!-- Logo image float left goes here -->
+			<ul id = "Navbar">
+				<a href = "Contact.html"><li> Contact </li> </a>
+				<a href = "https://www.youtube.com/user/alisialoza99" target ="_blank"><li> Youtube </li> </a>
+				<a href = "Gallery.html"><li> Gallery </li> </a> <!-- May switch this to youtube, having 2 abouts seems redundant -->
+				<a href = "Index.html"><li> Home </li> </a>
+			<ul>
+		</div>
+	</Header>
+	<!-- Showcase that slides through a variety of pictures -->
+	<Section id = "Showcase">
+		<div class = "Container"> 
+			<!-- Contains the images used for the slideshow -->
+			<img class ="mySlides" src ="Alisiastockimage.jpg" style width = 100%>
+			<img class ="mySlides" src ="Alisiastockimage2.jpg" style width = 100%>
+			<img class ="mySlides" src ="Alisiastockimage3.jpg" style width = 100%>
+			<img class ="mySlides" src ="Alisiastockimage4.jpg" style width = 100%>
+			<!-- Buttons for moving the images in the slideshow left and right -->
+			<button class="button-display-left" onclick="plusDivs(-1)">&#10094;</button>
+			<button class="button-display-right" onclick="plusDivs(+1)">&#10095;</button>
+		</div>
+		<!-- Javascript for the slideshow -->
+		<script>
+			var slideIndex = 1;
+				showDivs(slideIndex);
+
+			function plusDivs(n) {
+				showDivs(slideIndex += n);
+					}
+
+			function showDivs(n) {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+			if (n > x.length) {slideIndex = 1}    
+			if (n < 1) {slideIndex = x.length}
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";  
+				}
+			x[slideIndex-1].style.display = "block";  
+				}
+		</script>
+		<!-- Javascript end -->
+		
+		
+	</Section>
+	<!-- End of Showcase Section -->
+	
+	<!-- Start of About section -->
+	<Section id = "Boxes">
+	
+		<div class = "Container">
+			<div class = "boxUgly">
+				<p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+			</div>
+			<div class = "ugly">
+				<img src = "Ugly.jpg" width = 300px>
+			</div>
+			
+			<div class = "Container">
+			<div class = "boxTroy">
+				<p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+			</div>
+			<div class = "Troy">
+				<img src = "Ugly.jpg" width = 300px>
+			</div>
+		</div>
+		
+		</div>
+	
+	</Section>
+</Body>
+
+</HTML>

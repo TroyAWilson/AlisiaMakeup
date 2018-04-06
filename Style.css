@@ -1,0 +1,74 @@
+
+Body {
+	font-family: Georgia;
+	background-color: black;
+	color: white;
+	}
+header ul{
+	margin: 0;
+	padding: 0;
+	}
+header li {
+	position: relative;
+	float: right;
+	right: 200px;
+	display: inline;
+	padding: 0 40px 0 0;
+	}
+header Navbar{
+	float:right;
+	margin-top: 10px;
+}
+#logo {
+	position: relative;
+	left: 200px;
+}
+
+.button-display-right{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+.button-display-left{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+.footList {
+	position: absolute;
+	float: bottom;
+	display: inline;
+}
+.boxUgly{
+	padding: 30px;
+	position: relative;
+	right: 200px;
+	float: right;
+	max-width: 500px;
+	color: red;
+}
+.Ugly{
+	padding: 30px;
+	position: relative;
+	left: 200px;
+	float: left;
+	max-width: 200px;
+	
+}
+.boxTroy{
+	padding: 30px;
+	position: relative;
+	top: 200px;
+	float: left;
+	max-width: 500px;
+	color: blue;
+}
+
+.Troy{
+	padding: 30px;
+	position: relative;
+	top: 100px;
+	right: 200px;
+	float:right;
+	max-width: 200px;
+}
