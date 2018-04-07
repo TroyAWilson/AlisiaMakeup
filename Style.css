@@ -11,12 +11,10 @@ header ul{
 header li {
 	position: relative;
 	float: right;
-	right: 200px;
 	display: inline;
 	padding: 0 40px 0 0;
 	}
 header Navbar{
-	float:right;
 	margin-top: 10px;
 }
 #logo {
@@ -26,12 +24,12 @@ header Navbar{
 
 .button-display-right{
 	position: absolute;
-	bottom: 10px;
+	bottom: 250px;
 	right: 10px;
 }
 .button-display-left{
 	position: absolute;
-	bottom: 10px;
+	bottom: 250px;
 	left: 10px;
 }
 .footList {
@@ -48,27 +46,36 @@ header Navbar{
 	color: red;
 }
 .Ugly{
-	padding: 30px;
 	position: relative;
 	left: 200px;
-	float: left;
-	max-width: 200px;
-	
+	margin-top: 50px;
+	width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+	overflow: hidden;
+
 }
 .boxTroy{
 	padding: 30px;
 	position: relative;
 	top: 200px;
 	float: left;
+	left: 200px;
 	max-width: 500px;
 	color: blue;
 }
 
 .Troy{
-	padding: 30px;
 	position: relative;
-	top: 100px;
-	right: 200px;
-	float:right;
-	max-width: 200px;
+	top: 50px;
+	margin-top: 50px;
+	width: 300px;
+  height: 300px;
+	left: 200px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+	overflow: hidden;
 }
