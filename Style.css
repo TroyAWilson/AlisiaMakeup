@@ -3,6 +3,8 @@ Body {
 	font-family: Georgia;
 	background-color: black;
 	color: white;
+	padding: 0;
+	margin: 0;
 	}
 header ul{
 	margin: 0;
@@ -21,17 +23,29 @@ header Navbar{
 	position: relative;
 	left: 200px;
 }
+#Showcase{
+	margin: 0;
+	padding: 0;
 
+}
 .button-display-right{
 	position: absolute;
-	bottom: 250px;
+	bottom: 350px;
 	right: 10px;
 }
 .button-display-left{
 	position: absolute;
-	bottom: 250px;
+	bottom: 350px;
 	left: 10px;
 }
+
+.Container {
+	padding: 0;
+	margin: 0;
+	background-color:363636;
+}
+
+
 .footList {
 	position: absolute;
 	float: bottom;
@@ -62,7 +76,6 @@ header Navbar{
 .boxTroy{
 	padding: 30px;
 	position: relative;
-	top: 100px;
 	float: left;
 	left: 200px;
 	max-width: 500px;
@@ -73,7 +86,6 @@ header Navbar{
 
 .Troy{
 	position: relative;
-	top: 50px;
 	margin-top: 50px;
 	width: 300px;
   height: 300px;

@@ -1,11 +1,3 @@
-<!--
-		March 23, 2018
-	The index page for the most part is done, I need the images and logo work to
-	replace the current placeholders. The Gallery, Contact and Youtube links are
-	all functional. The Gallery and Contact pages need to be changed because they
-	are just copies of the Index page atm
-
- -->
 
 <HTML>
 
@@ -20,19 +12,20 @@
 </Head>
 
 <Body>
-	<Header>
-		<div class = "Container">
-			<div class = "Branding">
-			</div>
-			<a href ="Index.html"><img id = "logo" src = "AlisiaLoza.png" width = 200px></a> <!-- Logo image float left goes here -->
+	<!--
+	Might end up taking this out for a more slick/simple one page design
+
+	 <Header class = "Container">
+			<a href ="Index.html"><img id = "logo" src = "AlisiaLoza.png" width = 200px></a>
 			<ul id = "Navbar">
 				<a href = "Contact.html"><li> Contact </li> </a>
 				<a href = "https://www.youtube.com/user/alisialoza99" target ="_blank"><li> Youtube </li> </a>
-				<a href = "Gallery.html"><li> Gallery </li> </a> <!-- May switch this to youtube, having 2 abouts seems redundant -->
+				<a href = "Gallery.html"><li> Gallery </li> </a>
 				<a href = "Index.html"><li> Home </li> </a>
 			<ul>
-		</div>
 	</Header>
+
+-->
 	<!-- Showcase that slides through a variety of pictures -->
 	<Section id = "Showcase">
 		<div class = "Container">
@@ -66,8 +59,6 @@
 				}
 		</script>
 		<!-- Javascript end -->
-
-
 	</Section>
 	<!-- End of Showcase Section -->
 
@@ -75,25 +66,50 @@
 	<Section id = "About">
 
 		<div class = "Container">
+
 			<div class = "boxUgly">
 				<p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
 			</div>
+
 			<div class = "ugly">
 				<img src = "Ugly.jpg" width = 300px>
 			</div>
 
 			<div class = "Container">
-			<div class = "boxTroy">
-				<p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+
+				<div class = "boxTroy">
+					<p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+				</div>
+
+				<div class = "Troy">
+					<img src = "Troy.jpg" width = 300px>
+				</div>
+
 			</div>
-			<div class = "Troy">
-				<img src = "Troy.jpg" width = 300px>
-			</div>
-		</div>
 
 		</div>
 
 	</Section>
+
+	<section class = "Container">
+
+			<div id = "portfolio">
+				<!--  This is where a portfolio of pictures will go -->
+			</div>
+
+	</section>
+
+	<section class = "Container">
+
+			<div id = "contact">
+				<!--  This is where a contact info will go: email and such -->
+			</div>
+
+	</section>
+
+	<footer id = "footer">
+		<!-- Copyright/contact/social links -->
+	</footer>
 </Body>
 
 </HTML>
