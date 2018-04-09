@@ -39,59 +39,54 @@ header Navbar{
 	left: 10px;
 }
 
-.Container {
-	padding: 0;
-	margin: 0;
-	background-color:363636;
+#about{
+	max-width: 80%;
+	margin: auto;
 }
-
-
+.ContainerTroy{
+	background-color: tomato;
+}
 .footList {
 	position: absolute;
 	float: bottom;
 	display: inline;
 }
-.boxUgly{
-	padding: 30px;
+.boxugly{
 	position: relative;
-	right: 200px;
-	top: 50px;
 	float: right;
-	max-width: 500px;
-	color: white;
-	border-bottom: grey 2px solid;
+	max-width: 700px;
+	margin-top: 100px;
+	margin-bottom: 10px;
+	border-bottom: 2px tomato solid;
+
 }
 .Ugly{
-	position: relative;
-	left: 225px;
-	margin-top: 50px;
 	width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  border: 3px solid grey;
-  transition: all .5s;
+	height: 300px;
+	border-radius: 50%;
+	border: 3px solid grey;
+	transition: all .5s;
 	overflow: hidden;
+	margin-left: 50px;
 
 }
+
 .boxTroy{
-	padding: 30px;
 	position: relative;
 	float: left;
-	left: 200px;
-	max-width: 500px;
-	color: white;
-	border-bottom: grey 2px solid;
+	max-width: 700px;
+	margin-top: 100px;
+	border-bottom: 2px tomato solid;
+
 
 }
-
 .Troy{
-	position: relative;
-	margin-top: 50px;
 	width: 300px;
-  height: 300px;
-	left: 225px;
-  border-radius: 50%;
-  border: 3px solid grey;
-  transition: all .5s;
+	height: 300px;
+	border-radius: 50%;
+	border: 3px solid grey;
+	transition: all .5s;
 	overflow: hidden;
-}
+	float:right;
+	margin-right: 50px;
+	margin-top: 10px;
