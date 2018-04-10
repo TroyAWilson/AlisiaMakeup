@@ -1,8 +1,8 @@
 
 Body {
 	font-family: Georgia;
-	background-color: black;
-	color: white;
+	background-image: linear-gradient(pink 50%, white);
+	color: black;
 	padding: 0;
 	margin: 0;
 	}
@@ -19,6 +19,20 @@ header li {
 header Navbar{
 	margin-top: 10px;
 }
+
+p{
+	font-size: 20px;
+}
+h1{
+	border-top: 2px solid black;
+	margin: 25px;
+	text-align: center;
+	font-size: 75px;
+
+}
+/* Class/ID selectors */
+
+
 #logo {
 	position: relative;
 	left: 200px;
@@ -26,6 +40,7 @@ header Navbar{
 #Showcase{
 	margin: 0;
 	padding: 0;
+	box-shadow: 0 -10px 25px 10px 	black;
 
 }
 .button-display-right{
@@ -42,14 +57,11 @@ header Navbar{
 #about{
 	max-width: 80%;
 	margin: auto;
+	margin-top: 25px;
 }
-.ContainerTroy{
-	background-color: tomato;
-}
-.footList {
-	position: absolute;
-	float: bottom;
-	display: inline;
+
+.Container{
+	overflow: auto;
 }
 .boxugly{
 	position: relative;
@@ -64,10 +76,12 @@ header Navbar{
 	width: 300px;
 	height: 300px;
 	border-radius: 50%;
-	border: 3px solid grey;
+	/* border: 3px solid grey; */
+	box-shadow: 10px 10px 35px -15px black;
 	transition: all .5s;
 	overflow: hidden;
 	margin-left: 50px;
+	margin-top: 15px;
 
 }
 
@@ -84,9 +98,73 @@ header Navbar{
 	width: 300px;
 	height: 300px;
 	border-radius: 50%;
-	border: 3px solid grey;
+	box-shadow: 10px 10px 35px -15px black;
 	transition: all .5s;
 	overflow: hidden;
 	float:right;
 	margin-right: 50px;
 	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#contact{
+	text-align: center;
+	max-width: 80%;
+	margin: auto;
+
+}
+
+.contactButtons li{
+	display: inline;
+}
+.contactPics{
+	max-width: 100px;
+
+}
+
+#portfolio{
+	margin:25px 125px;;
+}
+
+.portfolioPic{
+	max-width: 350px;
+	border: 3px black solid;
+
+}
+.portfolioPic:hover
+{
+	transform: scale(1.3);
+	border: 1px black solid;
+
+}
+
+#footer{
+	max-width: 80%;
+	margin:auto;
+	border-top: 1px black solid;
+	overflow: auto;
+}
+
+
+.footList li{
+	display: inline;
+	float: right;
+	overflow: auto;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	font-size: 20px;
+	border: 1px solid black;
+	border-radius: 5px 5px;
+	background-color: pink;
+
+}
+.copyright{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+
+
+/* Media Queries */
