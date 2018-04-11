@@ -1,6 +1,6 @@
 
 Body {
-	font-family: Georgia;
+	font-family: Helvetica,Georgia;
 	background-image: linear-gradient(pink 50%, white);
 	color: black;
 	padding: 0;
@@ -117,13 +117,14 @@ h1{
 .contactButtons li{
 	display: inline;
 }
-.contactPics{
+.contactImages{
 	max-width: 100px;
-
+	margin-left: 25px;
+	border-radius: 15px;
 }
 
 #portfolio{
-	margin:25px 125px;;
+	margin:25px 125px;
 }
 
 .portfolioPic{
@@ -162,9 +163,26 @@ h1{
 .copyright{
 	margin: 0;
 	padding: 0;
-	text-align: center;
+	text-align: right;
 }
 
 
 
 /* Media Queries */
+@media screen and (max-width: 600px){
+	.portfolioPic{
+		max-width: 155px;
+	}
+	#portfolio{
+		margin: 15px;
+	}
+	.button-display-right{
+		bottom:550px;
+
+	}
+	.button-display-left{
+		bottom:550px;
+
+	}
+
+}
