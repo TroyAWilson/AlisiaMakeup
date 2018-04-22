@@ -62,8 +62,11 @@ h2{
 
 .Container{
 	overflow: auto;
-	margin-top: 100px;
+	/* margin-top: 100px; */
 	margin-bottom: 100px;
+}
+.containerAbout{
+	margin:100px;
 }
 .boxugly{
 	float: right;
