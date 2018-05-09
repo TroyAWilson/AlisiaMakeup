@@ -1,0 +1,41 @@
+@import "../utilities/variables";
+
+.mainHeader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #242930;
+  color:whitesmoke;
+
+  h1{
+    margin: 15px;
+    border-bottom: 1px aqua solid;
+    font-size: 3em;
+    padding:5px;
+  }
+}
+
+.mainNav{
+   ul {
+     list-style: none;
+     display: flex;
+     margin: 0;
+     padding: 0;
+     margin-bottom: 50px;
+      li {
+        display: flex;
+        margin:0 15px;
+        padding: 15px;
+        color:black;
+        background-color: whitesmoke;
+        border-radius: 5px;
+        &:hover {
+          background-color: $dark-pink;
+          color: whitesmoke;
+        }
+        &:active{
+          transform: scale(.9);
+        }
+      }
+   }
+}
