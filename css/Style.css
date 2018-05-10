@@ -37,7 +37,8 @@ img {
 
 .mainFooter {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
   background-color: #242930;
   color: whitesmoke;
   padding: 5px; }
@@ -64,16 +65,7 @@ img {
   justify-content: space-between; }
 
 .copyright {
-  align-self: center;
-  margin-left: 15px; }
-
-form {
-  display: none;
-  align-self: center;
-  margin-right: 15px; }
-  form label {
-    display: none;
-    margin: 10px; }
+  align-self: center; }
 
 .mainHeader {
   display: flex;
