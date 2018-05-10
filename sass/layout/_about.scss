@@ -1,0 +1,19 @@
+.about{
+  // background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+    h2{
+      text-align: center;
+    }
+
+    img{
+      max-width: 100%;
+      margin:15px;
+      border-radius: 15px;
+    }
+}
+.aboutText{
+  margin: 30px;
+}

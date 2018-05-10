@@ -1,46 +1,3 @@
-* {
-  box-sizing: border-box; }
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Raleway', sans-serif;
-  background-color: whitesmoke; }
-
-a {
-  text-decoration: none; }
-
-.mainHeader {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #242930;
-  color: whitesmoke; }
-  .mainHeader h1 {
-    margin: 15px;
-    border-bottom: 1px aqua solid;
-    font-size: 3em;
-    padding: 5px; }
-
-.mainNav ul {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 50px; }
-  .mainNav ul li {
-    display: flex;
-    margin: 0 15px;
-    padding: 15px;
-    color: black;
-    background-color: whitesmoke;
-    border-radius: 5px; }
-    .mainNav ul li:hover {
-      background-color: #ff4162;
-      color: whitesmoke; }
-    .mainNav ul li:active {
-      transform: scale(0.9); }
-
 .gallery {
   display: flex;
   flex-wrap: wrap; }
@@ -54,6 +11,30 @@ a {
 img {
   max-width: 100%; }
 
+.slick-dots li button::before {
+  font-size: 15px;
+  position: inline; }
+
+.slick-dots {
+  position: static; }
+
+.slideshow {
+  margin: 10px 0; }
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .about h2 {
+    text-align: center; }
+  .about img {
+    max-width: 100%;
+    margin: 15px;
+    border-radius: 15px; }
+
+.aboutText {
+  margin: 30px; }
+
 .mainFooter {
   display: flex;
   align-items: center;
@@ -61,5 +42,48 @@ img {
   color: whitesmoke; }
   .mainFooter a {
     color: aqua; }
+
+.mainHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #242930;
+  color: whitesmoke; }
+  .mainHeader h1 {
+    margin: 15px;
+    border-bottom: 1px aqua solid;
+    font-size: 2.5em;
+    padding: 5px; }
+
+.mainNav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px; }
+  .mainNav ul li {
+    display: flex;
+    margin: 0 15px;
+    padding: 5px 25px;
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 5px; }
+    .mainNav ul li:hover {
+      background-color: #ff4162;
+      color: whitesmoke; }
+    .mainNav ul li:active {
+      transform: scale(0.9); }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: whitesmoke; }
+
+a {
+  text-decoration: none; }
 
 /*# sourceMappingURL=Style.css.map */
