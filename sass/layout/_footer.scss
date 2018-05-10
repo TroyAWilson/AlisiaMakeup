@@ -1,11 +1,60 @@
 .mainFooter{
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   background-color: $shark;
   color: whitesmoke;
+  padding: 5px;
+
 
     a{
       color: aqua;
     }
 
+    ul{
+      list-style: none;
+      display: flex;
+      padding: 0;
+
+      li {
+        margin: 5px;
+        padding: 5px;
+        color:$shark;
+        background-color: whitesmoke;
+        border-radius: 5px;
+
+        &:hover {
+          background-color: $dark-pink;
+          color: whitesmoke;
+        }
+        &:active{
+          transform: scale(.9);
+        }
+
+      }
+    }
+  }
+// .copyright,
+// .contact{
+//   width: 50%;
+// }
+
+.contact{
+  display: flex;
+  justify-content: space-between;
+
+}
+.copyright{
+  align-self: center;
+  margin-left: 15px;
+}
+
+
+form {
+  display: none;
+  align-self: center;
+  margin-right: 15px;
+  label{
+    display: none;
+      margin:10px;
+  }
 }

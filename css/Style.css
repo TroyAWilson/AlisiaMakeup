@@ -5,7 +5,7 @@
 .galContainer {
   max-width: 100%;
   margin: 15px;
-  border: 3.5px #ff4162 solid;
+  border: 2.5px #242930 solid;
   border-radius: 5px; }
 
 img {
@@ -37,11 +37,43 @@ img {
 
 .mainFooter {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   background-color: #242930;
-  color: whitesmoke; }
+  color: whitesmoke;
+  padding: 5px; }
   .mainFooter a {
     color: aqua; }
+  .mainFooter ul {
+    list-style: none;
+    display: flex;
+    padding: 0; }
+    .mainFooter ul li {
+      margin: 5px;
+      padding: 5px;
+      color: #242930;
+      background-color: whitesmoke;
+      border-radius: 5px; }
+      .mainFooter ul li:hover {
+        background-color: #ff4162;
+        color: whitesmoke; }
+      .mainFooter ul li:active {
+        transform: scale(0.9); }
+
+.contact {
+  display: flex;
+  justify-content: space-between; }
+
+.copyright {
+  align-self: center;
+  margin-left: 15px; }
+
+form {
+  display: none;
+  align-self: center;
+  margin-right: 15px; }
+  form label {
+    display: none;
+    margin: 10px; }
 
 .mainHeader {
   display: flex;
@@ -63,7 +95,7 @@ img {
   margin-bottom: 50px; }
   .mainNav ul li {
     display: flex;
-    margin: 0 15px;
+    margin: 0 5px;
     padding: 5px 25px;
     color: black;
     background-color: whitesmoke;
