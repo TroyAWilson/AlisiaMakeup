@@ -26,7 +26,8 @@ img {
   flex-direction: column;
   justify-content: space-between; }
   .about h2 {
-    text-align: center; }
+    align-self: center;
+    border-bottom: 1px #242930 solid; }
   .about img {
     max-width: 100%;
     margin: 15px;
@@ -104,6 +105,7 @@ img {
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
   font-family: 'Raleway', sans-serif;
   background-color: whitesmoke; }
 
