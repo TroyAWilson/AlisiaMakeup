@@ -72,7 +72,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #242930;
+  background-color: black;
   color: whitesmoke; }
   .mainHeader h1 {
     margin: 15px;
@@ -107,7 +107,7 @@ body {
   padding: 0;
   width: 100%;
   font-family: 'Raleway', sans-serif;
-  background-color: whitesmoke; }
+  background-color: black; }
 
 a {
   text-decoration: none; }
