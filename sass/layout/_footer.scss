@@ -1,15 +1,15 @@
 .mainFooter{
+  background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
-  // justify-content: space-between;
   background-color: $shark;
   color: whitesmoke;
-  padding: 5px;
+  padding: 10px;
 
 
     a{
-      color: aqua;
+      color: whitesmoke;
     }
 
     ul{
@@ -23,7 +23,7 @@
         color:$shark;
         background-color: whitesmoke;
         border-radius: 5px;
-
+        transition: .2s ease-out;
         &:hover {
           background-color: $dark-pink;
           color: whitesmoke;

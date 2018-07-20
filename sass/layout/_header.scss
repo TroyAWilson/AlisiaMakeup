@@ -1,18 +1,11 @@
 @import "../utilities/variables";
 
 .mainHeader{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #242930;
-  color:whitesmoke;
-
-  h1{
+  text-align: center;
     margin: 15px;
-    border-bottom: 1px aqua solid;
     font-size: 2.5em;
     padding:5px;
-  }
+    margin-bottom: 1.5em;
 }
 
 .mainNav{
@@ -38,4 +31,7 @@
         }
       }
    }
+}
+.banner-image{
+  max-width: 100%;
 }

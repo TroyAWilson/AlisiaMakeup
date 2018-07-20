@@ -1,13 +1,55 @@
 .gallery{
   display: flex;
   flex-wrap: wrap;
+  // margin: 50px;
 }
 .galContainer{
+  display: flex;
   max-width: 100%;
-  margin: 15px;
-  border: 2.5px $shark solid;
-  border-radius: 5px;
+  margin: 0px;
+  padding: 50px;
+    img {
+      max-width: 100%;
+      border-radius: 50%;
+    }
+    p{
+      font-size: 1.2em;
+      margin:auto;
+      padding:50px;
+      max-width: 50%;
+    }
 }
-img {
-  max-width: 100%;
+.reverse{
+  flex-direction: row-reverse;
+}
+.gallery1{
+  background-color: coral;
+  img{
+    border:4px dashed #50f3ff;
+  }
+}
+.gallery2{
+  background-color: #50f3ff;
+  img{
+    border: 4px dashed #ad50ff;
+  }
+}
+.gallery3{
+  background-color: #ad50ff;
+  img{
+    border: 4px dashed #ffd650;
+  }
+}
+.gallery4{
+  background-color: #ffd650;
+  margin-bottom: 15px;
+  img {
+    border: 4px dashed coral;
+  }
+}
+.seeMore{
+  font-size: 1.5em;
+  background-color: coral;
+  padding: 0 15px;
+  border-radius: 10px;
 }
