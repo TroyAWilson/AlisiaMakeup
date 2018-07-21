@@ -14,7 +14,8 @@
     font-size: 1.2em;
     margin: auto;
     padding: 50px;
-    max-width: 50%; }
+    max-width: 50%;
+    text-shadow: 1px 1px 3px black; }
 
 .reverse {
   flex-direction: row-reverse; }
@@ -41,10 +42,18 @@
     border: 4px dashed coral; }
 
 .seeMore {
+  display: flex;
+  margin: auto;
   font-size: 1.5em;
   background-color: coral;
   padding: 0 15px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  transition: .3s ease-out; }
+
+.seeMore:hover {
+  background-color: #50f3ff;
+  color: white;
+  text-shadow: 1px 1px 3px black; }
 
 .slick-dots li button::before {
   font-size: 15px;
@@ -64,7 +73,8 @@
     max-width: fit-content;
     max-height: 55%;
     margin: 15px;
-    border-radius: 50px; }
+    border-radius: 50px;
+    border: 4px dashed coral; }
 
 .aboutText {
   margin: 30px; }
@@ -77,7 +87,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #242930;
+  background-color: coral;
   color: whitesmoke;
   padding: 10px; }
   .mainFooter a {
@@ -105,6 +115,9 @@ h2 {
 
 .copyright {
   align-self: center; }
+
+.instagram:hover {
+  background-color: coral; }
 
 .mainHeader {
   text-align: center;
@@ -142,7 +155,9 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Raleway', sans-serif;
+  background-color: black;
+  color: white; }
 
 h2 {
   font-size: 1.9em; }

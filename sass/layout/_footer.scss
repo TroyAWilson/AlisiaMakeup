@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: $shark;
+  background-color: coral;
   color: whitesmoke;
   padding: 10px;
 
@@ -47,4 +47,7 @@
 }
 .copyright{
   align-self: center;
+}
+.instagram:hover{
+  background-color: coral;
 }
