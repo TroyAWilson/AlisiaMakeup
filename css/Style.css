@@ -1,6 +1,7 @@
 .gallery {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin: 0 5%; }
 
 .galContainer {
   display: flex;
@@ -46,7 +47,7 @@
   margin: auto;
   font-size: 1.5em;
   background-color: coral;
-  padding: 0 15px;
+  padding: 0 225px;
   border-radius: 10px;
   transition: .3s ease-out; }
 
@@ -84,10 +85,11 @@ h2 {
 
 .mainFooter {
   background-color: black;
+  border-top: 1px solid coral;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: coral;
+  background-color: black;
   color: whitesmoke;
   padding: 10px; }
   .mainFooter a {
@@ -115,9 +117,6 @@ h2 {
 
 .copyright {
   align-self: center; }
-
-.instagram:hover {
-  background-color: coral; }
 
 .mainHeader {
   text-align: center;
@@ -147,6 +146,27 @@ h2 {
 
 .banner-image {
   max-width: 100%; }
+
+.contact-button-top,
+.learn-button-top {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 15px 55px;
+  margin: 15px;
+  transition: .5s ease-out; }
+  .contact-button-top:hover,
+  .learn-button-top:hover {
+    cursor: pointer;
+    background-color: coral;
+    color: white; }
+
+.buttons-top {
+  position: absolute;
+  top: 525px;
+  left: 150px;
+  display: flex;
+  justify-content: center; }
 
 * {
   box-sizing: border-box; }

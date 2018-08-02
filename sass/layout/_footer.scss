@@ -1,9 +1,10 @@
 .mainFooter{
   background-color: black;
+  border-top: 1px solid coral;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: coral;
+  background-color: black;
   color: whitesmoke;
   padding: 10px;
 
@@ -47,7 +48,4 @@
 }
 .copyright{
   align-self: center;
-}
-.instagram:hover{
-  background-color: coral;
 }

@@ -1,1 +1,22 @@
+.contact-button-top,
+.learn-button-top{
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 15px 55px;
+  margin:15px;
+  transition: .5s ease-out;
 
+  &:hover{
+    cursor: pointer;
+    background-color: coral;
+    color: white;
+  }
+}
+.buttons-top{
+  position: absolute;
+  top: 525px;
+  left:150px;
+  display: flex;
+  justify-content: center;
+}

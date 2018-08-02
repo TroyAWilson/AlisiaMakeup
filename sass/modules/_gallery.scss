@@ -1,7 +1,7 @@
 .gallery{
   display: flex;
   flex-wrap: wrap;
-  // margin: 50px;
+  margin:0 5%;
 }
 .galContainer{
   display: flex;
@@ -54,7 +54,7 @@
   margin:auto;
   font-size: 1.5em;
   background-color: coral;
-  padding: 0 15px;
+  padding: 0 225px;
   border-radius: 10px;
   transition: .3s ease-out;
 }
